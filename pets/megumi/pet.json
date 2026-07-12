@@ -1,0 +1,12 @@
+{
+  "id": "megumi",
+  "displayName": "伏黑惠",
+  "description": "冷静寡言、观察细致的黑发咒术师桌宠。",
+  "spriteVersionNumber": 2,
+  "spritesheetPath": "spritesheet.webp",
+  "accent": "#4d5869",
+  "tags": [
+    "Anime",
+    "Codex v2"
+  ]
+}

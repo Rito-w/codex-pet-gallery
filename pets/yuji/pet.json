@@ -1,0 +1,12 @@
+{
+  "id": "yuji",
+  "displayName": "虎杖悠仁",
+  "description": "热血开朗、永不放弃的粉发咒术师桌宠。",
+  "spriteVersionNumber": 2,
+  "spritesheetPath": "spritesheet.webp",
+  "accent": "#d96f76",
+  "tags": [
+    "Anime",
+    "Codex v2"
+  ]
+}

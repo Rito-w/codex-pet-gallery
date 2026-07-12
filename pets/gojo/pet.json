@@ -1,0 +1,12 @@
+{
+  "id": "gojo",
+  "displayName": "五条悟",
+  "description": "从容强大、偶尔爱开玩笑的白发蒙眼咒术师桌宠。",
+  "spriteVersionNumber": 2,
+  "spritesheetPath": "spritesheet.webp",
+  "accent": "#d9e4ef",
+  "tags": [
+    "Anime",
+    "Codex v2"
+  ]
+}

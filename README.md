@@ -18,7 +18,8 @@ Open `http://localhost:4173`, or run `npm run build` to produce the deployable
 `site/` directory. Pushes to `main` deploy through GitHub Pages. For a new fork,
 enable **Settings → Pages → GitHub Actions** once.
 
-This repository currently features one installable Codex custom pet: Anya.
+This repository currently features five installable Codex custom pets: Anya,
+Gojo, Megumi, Nobara, and Yuji.
 
 Want to create your own? Use the companion skill:
 [Rito-w/codex-pet-factory](https://github.com/Rito-w/codex-pet-factory).
@@ -31,6 +32,30 @@ A pink-haired, expressive v2 companion with all nine standard task animations
 and sixteen look directions.
 
 Included package: `anya`.
+
+### Gojo
+
+A white-haired, blindfolded v2 companion with a calm, playful attitude.
+
+Included package: `gojo`.
+
+### Megumi
+
+A reserved dark-haired v2 companion with focused, understated movement.
+
+Included package: `megumi`.
+
+### Nobara
+
+A confident orange-brown-haired v2 companion with crisp, expressive poses.
+
+Included package: `nobara`.
+
+### Yuji
+
+An upbeat pink-haired v2 companion with energetic, determined movement.
+
+Included package: `yuji`.
 
 ## Install
 

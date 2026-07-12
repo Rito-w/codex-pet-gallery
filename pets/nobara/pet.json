@@ -1,0 +1,12 @@
+{
+  "id": "nobara",
+  "displayName": "钉崎野蔷薇",
+  "description": "自信利落、反应鲜明的橙棕短发咒术师桌宠。",
+  "spriteVersionNumber": 2,
+  "spritesheetPath": "spritesheet.webp",
+  "accent": "#c9784b",
+  "tags": [
+    "Anime",
+    "Codex v2"
+  ]
+}
