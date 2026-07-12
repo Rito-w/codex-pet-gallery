@@ -18,46 +18,19 @@ Open `http://localhost:4173`, or run `npm run build` to produce the deployable
 `site/` directory. Pushes to `main` deploy through GitHub Pages. For a new fork,
 enable **Settings → Pages → GitHub Actions** once.
 
-This repository collects installable Codex custom pets, preview sheets, and
-small animation samples. The pets here are original community-style creations
-made for the Codex pet system.
+This repository currently features one installable Codex custom pet: Anya.
 
 Want to create your own? Use the companion skill:
 [Rito-w/codex-pet-factory](https://github.com/Rito-w/codex-pet-factory).
 
 ## Gallery
 
-### Mochi Otter
+### Anya
 
-Soft chibi otters with cream, mint, and aqua cyber accents. They love drifting
-through the workday, but somehow become extremely competent when bugs appear.
+A pink-haired, expressive v2 companion with all nine standard task animations
+and sixteen look directions.
 
-![Mochi Otter overview](showcase/mochi-otter-overview.png)
-
-| Idle | Working | Failed | Review |
-| --- | --- | --- | --- |
-| ![Mochi idle](showcase/gifs/mochi-otter-cream-idle.gif) | ![Mochi running](showcase/gifs/mochi-otter-cream-running.gif) | ![Mochi failed](showcase/gifs/mochi-otter-aqua-failed.gif) | ![Mochi review](showcase/gifs/mochi-otter-mint-review.gif) |
-
-Included variants:
-
-- `mochi-otter-cream`
-- `mochi-otter-mint`
-- `mochi-otter-aqua`
-
-### Stella
-
-An original pink-haired coding companion with a black-and-gold outfit and
-expressive Codex task states.
-
-![Stella contact sheet](showcase/stella-contact-sheet.png)
-
-| Jumping | Review |
-| --- | --- |
-| ![Stella jumping](showcase/gifs/stella-jumping.gif) | ![Stella review](showcase/gifs/stella-review.gif) |
-
-Included package:
-
-- `stella-codex-pet`
+Included package: `anya`.
 
 ## Install
 
@@ -79,7 +52,7 @@ Or install one pet:
 
 ```sh
 mkdir -p ~/.codex/pets
-cp -R pets/mochi-otter-cream ~/.codex/pets/
+cp -R pets/anya ~/.codex/pets/
 ```
 
 Then open Codex:
@@ -97,10 +70,6 @@ pets/
   <pet-id>/
     pet.json
     spritesheet.webp
-showcase/
-  preview images and GIFs
-packages/
-  optional zip bundles
 docs/
   contribution templates
 ```
@@ -118,14 +87,11 @@ git clone https://github.com/Rito-w/codex-pet-factory.git \
 Then ask Codex something like:
 
 ```text
-Use $codex-pet-factory to generate a Codex pet:
-animal: tiny otter
-style: soft anime chibi, light cyber UI
-palette: cream white, mint green, pale blue
-personality: lazy but fixes bugs when it matters
-prop: shell keyboard and fish cursor
-name: Mochi Otter
-count: 3 variants
+Use $hatch-pet to generate a Codex v2 pet:
+concept: an original compact desk companion
+style: readable at 192x208, clean silhouette
+personality: curious and focused
+name: Tiny Friend
 ```
 
 ## Contribute

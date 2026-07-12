@@ -1,8 +1,0 @@
-{
-  "id": "mochi-otter-aqua",
-  "displayName": "Mochi Otter Aqua",
-  "description": "A calm aqua otter who turns into a sharp emergency debugger.",
-  "spritesheetPath": "spritesheet.webp",
-  "accent": "#76cbd0",
-  "tags": ["Otter", "Classic sprite"]
-}
