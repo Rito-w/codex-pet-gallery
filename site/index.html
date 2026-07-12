@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="A community shelf of animated companions for Codex." />
+    <title>Little Workmates — Codex Pet Gallery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="app.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#gallery">Skip to pets</a>
+    <header class="site-header shell">
+      <a class="wordmark" href="index.html" aria-label="Little Workmates home">
+        <span class="wordmark-mark" aria-hidden="true"></span>
+        Little Workmates
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="#gallery">Pets</a>
+        <a href="#contribute">Submit yours</a>
+        <a class="nav-github" href="https://github.com/Rito-w/codex-pet-gallery">GitHub</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero shell" aria-labelledby="hero-title">
+        <p class="eyebrow">Community pet shelf · Codex compatible</p>
+        <h1 id="hero-title">Tiny companions<br />for serious work.</h1>
+        <p class="hero-copy">Download a desk pet, watch every little reaction, or publish one of your own. No accounts. No rankings. Just good company.</p>
+        <a class="text-link" href="#gallery">Meet the collection <span aria-hidden="true">↓</span></a>
+        <div class="hero-orbit" aria-hidden="true">
+          <div class="hero-pet" data-hero-pet></div>
+          <span class="orbit-line"></span>
+          <span class="orbit-note">currently<br />on the shelf</span>
+        </div>
+      </section>
+
+      <section class="collection shell" id="gallery" aria-labelledby="gallery-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">The collection</p>
+            <h2 id="gallery-title">Choose a workmate</h2>
+          </div>
+          <p class="collection-count" data-count aria-live="polite">Loading pets…</p>
+        </div>
+        <div class="filter-row" role="group" aria-label="Filter pets">
+          <button class="filter is-active" type="button" data-filter="all">All</button>
+          <button class="filter" type="button" data-filter="v2">V2 motion</button>
+          <button class="filter" type="button" data-filter="classic">Classic</button>
+        </div>
+        <div class="pet-grid" data-pet-grid aria-live="polite"></div>
+        <div class="status-card" data-status hidden></div>
+      </section>
+
+      <section class="submit-band" id="contribute" aria-labelledby="submit-title">
+        <div class="shell submit-layout">
+          <div>
+            <p class="eyebrow">Make the shelf stranger</p>
+            <h2 id="submit-title">Your pet belongs here.</h2>
+          </div>
+          <div class="submit-copy">
+            <p>Package a Codex-compatible spritesheet, add a small manifest, and open a pull request. We keep the format boring so the characters can be interesting.</p>
+            <a class="button button-dark" href="https://github.com/Rito-w/codex-pet-gallery/blob/main/CONTRIBUTING.md">Read the submission guide</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer shell">
+      <p>Open shelf, built by pet people.</p>
+      <p>Codex Pet Gallery · <span data-year></span></p>
+    </footer>
+  </body>
+</html>

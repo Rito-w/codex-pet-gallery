@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Preview and download a Codex desk pet." />
+    <title>Pet details — Little Workmates</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="pet.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#pet-detail">Skip to pet details</a>
+    <header class="site-header shell">
+      <a class="wordmark" href="index.html"><span class="wordmark-mark" aria-hidden="true"></span>Little Workmates</a>
+      <nav aria-label="Primary navigation">
+        <a href="index.html#gallery">All pets</a>
+        <a href="https://github.com/Rito-w/codex-pet-gallery">GitHub</a>
+      </nav>
+    </header>
+
+    <main id="pet-detail" class="detail-shell shell">
+      <a class="back-link" href="index.html#gallery"><span aria-hidden="true">←</span> Back to the shelf</a>
+      <div data-detail>
+        <div class="detail-loading">Getting your workmate ready…</div>
+      </div>
+    </main>
+
+    <footer class="site-footer shell">
+      <p>Open shelf, built by pet people.</p>
+      <p>Codex Pet Gallery · <span data-year></span></p>
+    </footer>
+  </body>
+</html>

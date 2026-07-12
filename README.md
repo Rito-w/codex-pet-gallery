@@ -2,6 +2,22 @@
 
 Playable little companions for the Codex app.
 
+## Web Gallery
+
+The repository includes a lightweight storefront for browsing every pet,
+previewing all nine standard task animations, and downloading an installable
+zip. The site is generated from `pets/`, so a valid package appears
+automatically.
+
+```sh
+npm test
+npm run dev
+```
+
+Open `http://localhost:4173`, or run `npm run build` to produce the deployable
+`site/` directory. Pushes to `main` deploy through GitHub Pages. For a new fork,
+enable **Settings → Pages → GitHub Actions** once.
+
 This repository collects installable Codex custom pets, preview sheets, and
 small animation samples. The pets here are original community-style creations
 made for the Codex pet system.
@@ -131,4 +147,3 @@ contract.
 
 Make something charming, weird, useful, or delightfully distracting. Tiny
 desktop friends are better when more people get to invent them.
-

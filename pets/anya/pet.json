@@ -1,0 +1,9 @@
+{
+  "id": "anya",
+  "displayName": "阿尼亚",
+  "description": "阿尼亚原型的粉发机灵桌面小伙伴。",
+  "spriteVersionNumber": 2,
+  "spritesheetPath": "spritesheet.webp",
+  "accent": "#e7a69b",
+  "tags": ["Chibi", "Codex v2"]
+}

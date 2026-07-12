@@ -2,5 +2,7 @@
   "id": "mochi-otter-mint",
   "displayName": "Mochi Otter Mint",
   "description": "A minty otter who looks relaxed until a bug needs fixing.",
-  "spritesheetPath": "spritesheet.webp"
+  "spritesheetPath": "spritesheet.webp",
+  "accent": "#92c9a5",
+  "tags": ["Otter", "Classic sprite"]
 }

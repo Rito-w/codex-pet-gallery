@@ -2,5 +2,7 @@
   "id": "mochi-otter-cream",
   "displayName": "Mochi Otter Cream",
   "description": "A cream otter who loves drifting but fixes bugs when it counts.",
-  "spritesheetPath": "spritesheet.webp"
+  "spritesheetPath": "spritesheet.webp",
+  "accent": "#d8ba89",
+  "tags": ["Otter", "Classic sprite"]
 }
